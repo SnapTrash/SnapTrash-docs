@@ -7,6 +7,7 @@
 - Can add textual short description
 - Urgency could be classified
 - User has daily limits of reports
+- One location could be reported by only one user (~20m radius)
 - User sees ONLY their own uploads on map
 - User gets points for every confirmed/collected piece of garbage
 - User can see a toplist for their area
