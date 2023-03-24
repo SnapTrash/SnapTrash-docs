@@ -1,16 +1,26 @@
 Specifications document
 Trash report application ( SnapTrash)
 1-	Context
-To fight against pollution in big cities in Europe where there’s untreated piles of trash, The Company has thought about a solution to overcome such a challenge in order to preserve the cities’ landscape.  For that matter, C	 developed an application that allows citizens to report non-picked trash around the city. The application would mainly be available for Android users for a first approach.
-While observing untreated trash, a user can access the application by signing in using his phone number, take a photo of the trash, share his current position where the pile was found and can also add a small description and an emergency scale to indicate how urgent the issue has to be treated. Once a report was made it would be added to the organization’s partners map where they can check the informations that the user have put and verify the emergency scale and schedule a pickup trash time. Once it was picked up, the partners fill a scale/form that would be used later on for the rewarding system. Reporting would be limited to three reports per day per user to avoid abuse of the application and the reward system. Only the first user would be able to report a trash pile in a radius of 20 meters to avoid multiple reports of the same issue. A toplist is generated of top users in ones area/city.
+To fight against pollution in big cities in Europe where there’s untreated piles of trash, The Company has thought about a solution to overcome such a 
+challenge in order to preserve the cities’ landscape.  For that matter, C	 developed an application that allows citizens to report non-picked trash around the city.
+The application would mainly be available for Android users for a first approach.
+While observing untreated trash, a user can access the application by signing in using his phone number, take a photo of the trash, 
+share his current position where the pile was found and can also add a small description and an emergency scale to indicate how urgent the issue has to be treated.
+Once a report was made it would be added to the organization’s partners map where they can check the informations that the user have put and verify the emergency 
+scale and schedule a pickup trash time. Once it was picked up, the partners fill a scale/form that would be used later on for the rewarding system. Reporting would
+be limited to three reports per day per user to avoid abuse of the application and the reward system. Only the first user would be able to report a trash pile in a
+radius of 20 meters to avoid multiple reports of the same issue. A toplist is generated of top users in ones area/city.
 2-	Objectives
 2.1- For players
-The application gives the opportunity to users to make an impact in their own city and fight against pollution. It allows them to report trash to be treated, gain rewards with the company’s reward system and exchange them for gift cards/ donations… 
+The application gives the opportunity to users to make an impact in their own city and fight against pollution. It allows them to report trash to be treated,
+gain rewards with the company’s reward system and exchange them for gift cards/ donations… 
 2.2- For partners
 The application facilitates the work for the city’s responsibles and/or environmental organizations to locate trash and pick it up. 
 3-	Actors and Users
 3.1- Administrators
-An administrator is the one that would attribute rights to organizations to be able to access the map of the located trash and would review reported users from the organizations in case of abuse or misuse of the application. And can also give right to other users to become administrators. There’s at least one administrator in the launch of the app ( login : username/email , password: pwd)
+An administrator is the one that would attribute rights to organizations to be able to access the map of the located trash and would review reported users from
+the organizations in case of abuse or misuse of the application. And can also give right to other users to become administrators. 
+There’s at least one administrator in the launch of the app ( login : username/email , password: pwd)
 3.2- users
 In this application we have two main users: The players that report trash locations and Sponsors that would check the map of all locations and treat the issues 
 3.2.1- Sponsors
@@ -18,11 +28,14 @@ The sponsors have to login in the app to access the different features of the ap
 3.2.2- Players
 Players also have to login to access the application. They can directly create an account and start reporting trash in their area
 4-	System perimeter
-In Europe, there’s no known competitors that offer the same opportunity for users to be active in their communities. The application would locate the user and let him be active only in his city.
+In Europe, there’s no known competitors that offer the same opportunity for users to be active in their communities. The application would locate the user and 
+let him be active only in his city.
 5-	Business rules
-A user can only access the app by logging in with his email/username after creating an account and verifying his phone number. A user can only report three Piles per day.
+A user can only access the app by logging in with his email/username after creating an account and verifying his phone number. A user can only report three
+Piles per day.
 A sponsor can access all the reported Piles within the perimeter of the city after being authenticated.
-For every report there’s a minimum of information to provide such as the localization of the Pile, an emergency scale, a photo of the trash pile, and optionally a description of the issue.
+For every report there’s a minimum of information to provide such as the localization of the Pile, an emergency scale, a photo of the trash pile, and optionally
+ a description of the issue.
 6-	Use case
 //Functionalities
 7-	Functional needs
