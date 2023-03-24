@@ -10,11 +10,15 @@
 - One location could be reported by only one user (~20m radius)
 - User sees ONLY their own uploads on map
 - User can earn badges for certain activities
-- User gets points for every confirmed/collected piece of garbage
-- User can see a toplist for their area
+- User gets points for every confirmed/collected piece of garbage depending on the urgency (multiplier applied)
+- User can buy gifts with points
 ## Organizations
 - Org members are listed by phone number, they log in with that as well
 - Can see all rubbish in their own area on map
 - Can mark the status of the garbage, if they confirm it, user gets points
 - Can penalize a user, if urgency is misclassified
 - Can report user if abuse is detected
+
+## Future (considered when designing database)
+  - User can see a toplist for their area (purchases do not affect this list)
+  - Users can pick up trash themselves
