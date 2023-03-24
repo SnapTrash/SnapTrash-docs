@@ -1,5 +1,5 @@
 # Meeting logs
-## 2023.03.24
+## 2023.03.24 [Week 2]
 ### Agenda
 - Finalizing database schema
 - Setting up server-side infrastructure
