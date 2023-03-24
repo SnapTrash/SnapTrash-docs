@@ -4,7 +4,7 @@ Trash report application ( SnapTrash)
 To fight against pollution in big cities in Europe where there’s untreated piles of trash, The Company has thought about a solution to overcome such a 
 challenge in order to preserve the cities’ landscape.  For that matter, C	 developed an application that allows citizens to report non-picked trash around the city.
 The application would mainly be available for Android users for a first approach.
-While observing untreated trash, a user can access the application by signing in using his phone number, take a photo of the trash, 
+While observing untreated trash, a user can access the application by signing in using his phone number and/or email, take a photo of the trash, 
 share his current position where the pile was found and can also add a small description and an emergency scale to indicate how urgent the issue has to be treated.
 Once a report was made it would be added to the organization’s partners map where they can check the informations that the user have put and verify the emergency 
 scale and schedule a pickup trash time. Once it was picked up, the partners fill a scale/form that would be used later on for the rewarding system. Reporting would
@@ -20,7 +20,7 @@ The application facilitates the work for the city’s responsibles and/or enviro
 3.1- Administrators
 An administrator is the one that would attribute rights to organizations to be able to access the map of the located trash and would review reported users from
 the organizations in case of abuse or misuse of the application. And can also give right to other users to become administrators. 
-There’s at least one administrator in the launch of the app ( login : username/email , password: pwd)
+There’s at least one administrator in the launch of the app ( login : phone number/email , password: pwd)
 3.2- users
 In this application we have two main users: The players that report trash locations and Sponsors that would check the map of all locations and treat the issues 
 3.2.1- Sponsors
