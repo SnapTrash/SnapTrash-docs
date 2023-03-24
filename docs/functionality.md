@@ -2,7 +2,7 @@
 ## General
 - Dark / light colors
 ## Users
-- Phone number login
+- Phone number login & anonymous login for players
 - Uploads pictures of rubbish marked with current location from GPS (only taking photos in-place)
 - Can add textual short description
 - Urgency could be classified
@@ -16,9 +16,13 @@
 - Org members are listed by phone number, they log in with that as well
 - Can see all rubbish in their own area on map
 - Can mark the status of the garbage, if they confirm it, user gets points
-- Can penalize a user, if urgency is misclassified
-- Can report user if abuse is detected
-
+- Can report user if abuse or misclassification is detected
+## Admins
+  - Can review reports
+  - Can delete or modify snaps
+  - Can add, manage(add/remove employees, manage invoices), delete organizations
+  - Can manage users
 ## Future (considered when designing database)
   - User can see a toplist for their area (purchases do not affect this list)
+  - Before(original snap)-after(org cleaning picture) feeds
   - Users can pick up trash themselves
