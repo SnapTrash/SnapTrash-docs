@@ -1,0 +1,10 @@
+LightMode: 
+background: FBF8F1
+text: 44846B
+symbols: 44846B
+
+
+DarkMode:
+background: 181A18
+text: FBF8F1
+symbols: FBF8F1
