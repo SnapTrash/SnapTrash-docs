@@ -79,7 +79,7 @@ Rules:
 - zip_code : string
 - street_number : string (can have letter ex 10b)
 - locationAreasWorking
-  - idLocation_areas : string (idReference in locationAreas)
+  - id_location_areas : string (idReference in locationAreas)
 - LoginUsers
   - name : string
   - surname : string
