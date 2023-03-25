@@ -16,6 +16,7 @@ Rules:
 - status : number
 - profile_image : string (idReference to file in Storage)
 - snaps
+  - id_location_area : string
   - id_snap : string (idSnapReference to snaps under locationAreas)
 - pointsHistory 
   - date : timestamp
@@ -34,8 +35,10 @@ Rules:
 - status : number (status of the profile, ex. 1 = active, 0 = deactive)
 - reports
   - date : timestamp
-  - association_name : string
-  - association_user : string (login)
+  - id_association : string
+  - association_id_user : string (login)
+  - reason : string
+
 ## gifts
 - name : string
 - code_product : string
@@ -55,9 +58,6 @@ Rules:
 - municipality : string
 - snaps
   - coordinates : geopoint (latitude and longitude as number)
-  - country : string (has to be the same of the locationArea)
-  - region : string (has to be the same of the locationArea)
-  - municipality : string (has to be the same of the locationArea)
   - user : string ( idReference to users)
   - date : timestamp
   - id_snap_image : string (idReference in snapImages in Storage)
@@ -81,17 +81,16 @@ Rules:
 - locationAreasWorking
   - id_location_areas : string (idReference in locationAreas)
 - LoginUsers
-  - name : string
-  - surname : string
-  - login_name : string
+  - user_name : string
   - password : string
-  - type : string
+  - email : string
+  - type : number 
   - phone_number : string
 - payments
   - date : timestamp
   - amount : number
   - purpose : string
-  - parcel : string (idReference in parcels in Storage)
+  - invoice : string (idReference in parcels in Storage)
 
 
 ## admins
@@ -99,7 +98,6 @@ Rules:
 - surnaname : string
 - email: string
 - password : string
-- role : string
 - phone_number : string
 
  ## wasteDisposalCenters (optional)
@@ -117,12 +115,10 @@ Rules:
   
  
 
-
-
 # Storage
 
 ## snapImages
 ## userProfileImages
 ## giftImages
 ## badgeImages
-## parcels
+## invoices
