@@ -38,7 +38,7 @@ Rules:
   - id_association : string
   - association_id_user : string (login)
   - reason : string
-  - status: number
+  - status: number (0 = not looked at, 1 = accepted, 2 = denied)
   - message: string
 
 ## gifts
