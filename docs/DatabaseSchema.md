@@ -12,7 +12,6 @@ Rules:
 - username : string
 - phone_number : string
 - email: string
-- password : string
 - status : number
 - profile_image : string (idReference to file in Storage)
 - snaps
