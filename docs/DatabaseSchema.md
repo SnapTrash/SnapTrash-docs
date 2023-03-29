@@ -30,14 +30,17 @@ Rules:
   - id_badge : string (idBadge reference to badges)
   - date : timestamp
 - friends
-  id_user : string (idUser references to users)
-  date : timestamp
+  - id_user : string (idUser references to users)
+  - date : timestamp
+  - pending: boolean
 - status : number (status of the profile, ex. 1 = active, 0 = deactive)
 - reports
   - date : timestamp
   - id_association : string
   - association_id_user : string (login)
   - reason : string
+  - status: number
+  - message: string
 
 ## gifts
 - name : string
@@ -64,8 +67,7 @@ Rules:
   - description : string
   - urgency : number (1= low urgency , 3 = high urgency)
   - confirmed_urgency : number
-  - confirmed_presence : number (1 = present, 0 = not present)
-  - status : number (ex. 0 = not cleaned , 1 = cleaned)
+  - status : number (ex. 0 = not cleaned , 1 = cleaned, 2 = not present)
 - authorizedAssociations
   - id_association : string (idAssociation references to associations)
  
@@ -80,7 +82,7 @@ Rules:
 - street_number : string (can have letter ex 10b)
 - locationAreasWorking
   - id_location_areas : string (idReference in locationAreas)
-- LoginUsers
+- loginUsers
   - user_name : string
   - password : string
   - email : string
