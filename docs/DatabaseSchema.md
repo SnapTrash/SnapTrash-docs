@@ -85,7 +85,6 @@ Rules:
   - user_name : string
   - password : string
   - email : string
-  - type : number 
   - phone_number : string
 - payments
   - date : timestamp
