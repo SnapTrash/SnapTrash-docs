@@ -109,9 +109,9 @@ Rules:
 - zip_code : string
 - street_number : string (can have letter ex 10b)
 - locationAreasWorking
-  - id_location_area : string (idReference in locationAreas)
+- id_location_area : string (idReference in locationAreas)
 - typeWaste 
-  - name_type : string
+- name_type : string
   
  
 
