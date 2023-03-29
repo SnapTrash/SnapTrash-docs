@@ -65,7 +65,7 @@ Rules:
   - id_snap_image : string (idReference in snapImages in Storage)
   - description : string
   - urgency : number (1= low urgency , 3 = high urgency)
-  - confirmed_urgency : number
+  - confirmed_urgency : number (same as above)
   - status : number (ex. 0 = not cleaned , 1 = cleaned, 2 = not present)
 - authorizedAssociations
   - id_association : string (idAssociation references to associations)
