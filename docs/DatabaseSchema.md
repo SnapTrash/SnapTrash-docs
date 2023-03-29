@@ -95,9 +95,8 @@ Rules:
 
 ## admins
 - name : string
-- surnaname : string
+- surname : string
 - email: string
-- password : string
 - phone_number : string
 
  ## wasteDisposalCenters (optional)
