@@ -11,7 +11,7 @@
 - [x] Hany Ghorbel
 - [x] Patrik Fábián
 - [x] Tobias Kolbe
-### Meeting topics
+### Meeting log
 #### Finalizing functionality
 - We were looking at the *funcionality.md* document
 - We went over the functions and discussed them, often carrying over to the database
@@ -46,3 +46,9 @@
 - [] Hany Ghorbel
 - [] Patrik Fábián
 - [] Tobias Kolbe
+### Meeting log
+#### Required database changes
+#### How to interact with backend
+#### UI progress
+#### Goals for this week
+### Summary
