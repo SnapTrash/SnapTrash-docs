@@ -59,7 +59,7 @@ Rules:
 ## locationAreas
 - country : string
 - region : string
-- municipality : string
+- settlement : string // instead of municipality
 - snaps
   - coordinates : geopoint (latitude and longitude as number)
   - user : string ( idReference to users)
