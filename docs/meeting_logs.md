@@ -42,13 +42,21 @@
 - UI progress
 - Goals for this week
 ### Presence
-- [] Giorgio Gueli
-- [] Hany Ghorbel
-- [] Patrik Fábián
-- [] Tobias Kolbe
+- [x] Giorgio Gueli
+- [x] Hany Ghorbel
+- [x] Patrik Fábián
+- [x] Tobias Kolbe
 ### Meeting log
 #### Required database changes
+Agreed on all of the changes from pull request #23.
+Settlements will be used instead of municipalities for the areas.
 #### How to interact with backend
+Function calls and cloud triggers have been explained to the responsible team member.
 #### UI progress
+@GioGue implemented the login screen.
+The logo has been finalized and merged into the docs repo (pull request #24).
 #### Goals for this week
-### Summary
+- Completion of the user and snap handling on the server-side
+- Completion of the register, login screens, with a simple home page for the logged in user
+  - Registration will be a cloud function, normal client-side reg will be disabled.
+- Segmentation and competitor analysis will be worked on this week (probably on Wednesday)
