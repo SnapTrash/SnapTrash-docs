@@ -58,5 +58,32 @@ The logo has been finalized and merged into the docs repo (pull request #24).
 #### Goals for this week
 - Completion of the user and snap handling on the server-side
 - Completion of the register, login screens, with a simple home page for the logged in user
-  - Registration will be a cloud function, normal client-side reg will be disabled.
+- Registration will be a cloud function, normal client-side reg will be disabled.
 - Segmentation and competitor analysis will be worked on this week (probably on Wednesday)
+## 18.04.2023 [Week 6]
+### Agenda
+- CameraX support
+- Database schema changes
+- Smaller UI changes
+- OSMDroid
+- UI-VM integration
+- "Office" hours
+- Carbonara recipe
+### Presence
+- [x] Giorgio Gueli
+- [x] Hany Ghorbel
+- [x] Patrik Fábián
+- [x] Tobias Kolbe
+### Meeting log
+#### CameraX
+@GioGue will work on this, more team members may be required to solve more difficult problems.
+#### UI changes
+Settings will be "Account settings".
+#### OSMDroid
+@hanyghorbel will work on the map.
+#### Database
+Snaps will be moved up to the root of the whole database.
+#### Working hours
+We're going to work together 09-17.
+#### How to make carbonara
+[SECRET]
