@@ -16,9 +16,6 @@ Rules:
   - sex : number (male = 0, female = 1, unspecified = 2)
   - phone_number : string
   - email: string
-- snaps
-  - id_location_area : string
-  - id_snap : string (idSnapReference to snaps under locationAreas)
 - pointsHistory 
   - date : timestamp
   - value : number
@@ -56,20 +53,21 @@ Rules:
 - name : string 
 - id_image_badge : string (idReference in badgeImages in Storage)
 
+## snaps
+ - coordinates : geopoint (latitude and longitude as number)
+ - user : string
+ - date : timestamp
+ - id_snap_image : string (idReference in snapImages in Storage)
+ - description : string
+ - urgency : number (1= low urgency , 3 = high urgency)
+ - area: string
+ - associationWritable
+  - confirmed_urgency : number
+  - status : number (0 = not cleaned , 1 = cleaned, 2 = not present)
 ## locationAreas
 - country : string
 - region : string
 - municipality : string
-- snaps
-  - coordinates : geopoint (latitude and longitude as number)
-  - user : string ( idReference to users)
-  - date : timestamp
-  - id_snap_image : string (idReference in snapImages in Storage)
-  - description : string
-  - urgency : number (1= low urgency , 3 = high urgency)
-  - associationWritable
-    - confirmed_urgency : number
-    - status : number (0 = not cleaned , 1 = cleaned, 2 = not present)
 - authorizedAssociations
   - id_association : string (idAssociation references to associations)
  
